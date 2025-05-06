@@ -143,7 +143,7 @@ python risk_scoring_inference.py
 ---
 ## 📘 Conceptual Study
 Explore the theoretical foundations, modeling choices, and future scope in the accompanying PDF:
-📄 [`conceptual_study_phishing_cyber_risk.pdf`](./conceptual_study_phishing_cyber_risk.pdf)
+📄 [`conceptual_study_phishing_cyber_risk.pdf`](https://github.com/Pre123140/PHISHING_-_CYBER_RISK_SCORING_DETECTION/blob/main/AI_POWERED_PHISHING_%26_CYBER_RISK_SCORIN_DETECTION.pdf)
 
 Includes:
 - Business relevance and threat landscape
