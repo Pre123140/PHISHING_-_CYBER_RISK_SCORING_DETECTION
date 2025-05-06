@@ -40,7 +40,6 @@ This project combines NLP-based phishing email detection with ML-based cyber vul
 ├── risk_scoring_app.py
 ├── data_preprocessing.py
 ├── requirements.txt
-└── README.md
 ```
 
 ---
@@ -68,18 +67,24 @@ This project combines NLP-based phishing email detection with ML-based cyber vul
 
 ## 🧪 How to Run
 
-### Step 1: Preprocess Data
+### Step 1: Install Dependencies
+```bash
+pip install -r requirements.txt
+
+```
+
+### Step 2: Preprocess Data
 ```bash
 python data_preprocessing.py
 ```
 
-### Step 2: Train Models
+### Step 3: Train Models
 ```bash
 python phishing_detection.py
 python risk_scoring.py
 ```
 
-### Step 3: Run Apps
+### Step 4: Run Apps
 ```bash
 streamlit run phishing_app.py
 streamlit run risk_scoring_app.py
@@ -136,6 +141,17 @@ python risk_scoring_inference.py
 ```
 
 ---
+## 📘 Conceptual Study
+Explore the theoretical foundations, modeling choices, and future scope in the accompanying PDF:
+📄 [`conceptual_study_phishing_cyber_risk.pdf`](./conceptual_study_phishing_cyber_risk.pdf)
+
+Includes:
+- Business relevance and threat landscape
+- ML pipeline design decisions
+- Alternatives to TF-IDF and Random Forest
+- Future evolution using LLMs or SHAP
+
+  ---
 
 ## 🔭 Future Enhancements
 
@@ -153,10 +169,12 @@ This project bridges the gap between human-targeted (phishing) and system-level 
 
 ---
 
-## 📄 License
-MIT License
+## 📜 License
+
+This project is open for educational use only. For commercial deployment, contact the author.
 
 ---
 
 ## 📬 Contact
-Built by Prerna Burande | Portfolio Project 2025 | AI x Cybersecurity
+If you'd like to learn more or collaborate on projects or other initiatives, feel free to connect on [LinkedIn](https://www.linkedin.com/in/prerna-burande-99678a1bb/) or check out my [portfolio site](https://youtheleader.com/).
+
